@@ -20,31 +20,6 @@ int main() {
     return 0;
 }
 
-// EXP 5B PROGRAM TO CHECK IF THE WORD IS VOWEL OR CONSONENT
-
-#include <iostream>
-using namespace std;
-
-int main(){
-    char character;
-    cout << "enter the given character: ";
-    cin >> character;
-
-    if(character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u' ||
-       character == 'A' || character == 'E' || character == 'I' || character == 'O' || character == 'U'){
-        cout << "the given letter is a vowel" << endl;
-    }
-    else if(character >= 'a' && character <= 'z'){
-        cout << "the character is a consonent" << endl;
-    }
-    else{
-        cout << "enter a valid character...." << endl;
-    }
-
-    return 0;
-}
-
-
 //EXP 5C FINDING THE LARGREST OF THE 3 NUMBERS BY NESTED IF STATEMENTS
 
 #include <iostream>
